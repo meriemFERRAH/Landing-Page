@@ -1,9 +1,13 @@
+import design  from "../events/design.png" ; 
+import sa  from "../events/sa9si.png" ; 
+import ai  from "../events/ai.png" ; 
+import may  from "../events/19may.jpg" ; 
 function Event() {
    return (
     <div className="Event" id="EVENTS">
       <h1>SPACE TECH <span>EVENTS</span></h1>
       <div className="event1">
-       <img src="src/events/design.png" alt="" className="event1img " />
+       <img src={design} alt="" className="event1img " />
        <div className="info1">
         <h1>DESIGN EVENT</h1>
         <p>An exciting collaboration between the Design Club and COIN Club took place, exploring the fascinating
@@ -12,7 +16,7 @@ function Event() {
        </div>
       </div>
       <div className="event1">
-          <img className="event2img" src="src/events/sa9si.png" alt="" />
+          <img className="event2img" src={sa} alt="" />
           <div className="info1">
           <h1>SA9SI ELMJAREB</h1>
           <p>Through a series of meticulously planned online sessions, the club orchestrated dynamic Ramadan evenings.
@@ -23,7 +27,7 @@ function Event() {
          
         </div>
         <div className="event1">
-        <img className="event3img" src="src/events/ai.png" alt="" />
+        <img className="event3img" src={ai} alt="" />
           <div className="info1">
           <h1>AI CONFERENCES</h1>
           <p>The event organized by the SpaceTech Club, in honor of Science Day and the University 
@@ -35,7 +39,7 @@ function Event() {
           </div>
         </div>
         <div className="eventE">
-        <img className="event4img" src="src/events/19may.jpg" alt="" />
+        <img className="event4img" src={may} alt="" />
           <div className="info1">
           <h1>MAY 19, 1956</h1>
           <p> This date marks the Student Day, commemorating the struggle and efforts of students during the revolution. Through the grace of God and the dedicated endeavors, the #Technological_Space_Club demonstrated that Algerian students can achieve great feats. We present excerpts from May 19, 2023, showcasing five projects and their experiences at the Faculty of Humanities, following visits from:
