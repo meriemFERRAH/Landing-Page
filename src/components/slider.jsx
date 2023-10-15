@@ -3,8 +3,6 @@ import pre from "../slide/president.jpg";
 import vice from "../slide/vicepresident.jpg";
 import media from "../slide/mediamanager.PNG";
 import dera from "../slide/derani.jpg";
-import logo from "../image/logo.jpg";
-import logo from "../image/logo.jpg";
 function Slider() {
 
   return (
