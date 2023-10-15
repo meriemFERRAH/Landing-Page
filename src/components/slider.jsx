@@ -1,7 +1,7 @@
 import logo from "../image/logo.jpg";
 import pre from "../slide/president.jpg";
 import vice from "../slide/vicepresident.jpg";
-import media from "../slide/mediamanager.PNG";
+import media from "../slide/mediamanager.png";
 import dera from "../slide/derani.jpg";
 function Slider() {
 
