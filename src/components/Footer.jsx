@@ -2,7 +2,7 @@ import { FaFacebookF  } from 'react-icons/fa';
 import { BsMessenger ,BsInstagram } from 'react-icons/bs';
 import {MdOutlineMailOutline ,MdLocationPin  } from 'react-icons/md';
 import  { useState, useEffect } from 'react';
-
+import logo from "../image/logo.jpg";
 function Footer() {
   const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
 
@@ -57,7 +57,7 @@ function Footer() {
        </div>
        <div className="End">
         <p>ALL RIGHTS RESERVED <br />{currentYear} </p>
-        <img className='logo'src="/src/image/logo.jpg" alt="logo.png"  />
+        <img className='logo'src={logo} alt="logo.png"  />
         <p>SPACE TECH CLUB</p>
        </div>
        </div>  
