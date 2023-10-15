@@ -1,10 +1,11 @@
+import logo from "../image/logo.jpg" ;
 function Navbar() {
 
   return (
     <nav className="navbar navbar-expand-lg NavCTN">
     <div className="container-fluid ">
       <a className="navbar-brand navlogo" href="#">
-     <img className="Brand" src="src/image/logo.jpg" alt="" /></a>
+     <img className="Brand" src={logo} alt="" /></a>
       <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
