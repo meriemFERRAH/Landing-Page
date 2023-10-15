@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaFacebookF  } from 'react-icons/fa';
 import { BsMessenger ,BsInstagram } from 'react-icons/bs';
 import {MdOutlineMailOutline ,MdLocationPin  } from 'react-icons/md';
