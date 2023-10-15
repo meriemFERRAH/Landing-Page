@@ -1,3 +1,4 @@
+import React from 'react';
 function Home() {
   const slide = document.querySelectorAll(".slide")
   var repeat = function(){
