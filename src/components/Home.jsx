@@ -1,4 +1,3 @@
-import React from 'react';
 function Home() {
   const slide = document.querySelectorAll(".slide")
   var repeat = function(){
@@ -30,12 +29,12 @@ function Home() {
     <div className="HomeCTN">
         <div className="Text">
             <p>WELCOME TO SPACE TECH CLUB</p>
-            <img className="hide " src="./src/image/logo.jpg" alt="" />
+            <img className="hide " src="src/image/logo.jpg" alt="" />
             <span className="span">Team That Includes Both <br /><span>Technology and Science</span></span>
         </div>
         <div className="Slide">
          
-          <img src="./src/slide/img4.png" className="circle " alt="" />
+          <img src="src/slide/img4.png" className="circle " alt="" />
           
           </div>
     </div>
