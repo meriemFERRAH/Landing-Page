@@ -1,4 +1,3 @@
-import React from 'react';
 function Event() {
    return (
     <div className="Event" id="EVENTS">
