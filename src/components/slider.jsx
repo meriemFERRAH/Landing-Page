@@ -61,7 +61,7 @@ function Slider() {
       <label htmlFor="s4" id="slide4">
         <div className="card">
           <div className="image">
-            <img src{dera} alt="" />
+            <img src={dera} alt="" />
           </div>
           <div className="infos">
             <span className="name">RECRUITMENT OFFICER</span>
