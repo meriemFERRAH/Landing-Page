@@ -1,4 +1,3 @@
-import React from 'react';
 function Slider() {
 
   return (
@@ -19,7 +18,7 @@ function Slider() {
       <label htmlFor="s1" id="slide1">
         <div className="card">
           <div className="image">
-            <img src="./src/slide/president.jpg" alt="" />
+            <img src="src/slide/president.jpg" alt="" />
           </div>
           <div className="infos">
             <span className="name">CLUB PRESIDENT</span>
@@ -31,7 +30,7 @@ function Slider() {
       <label htmlFor="s2" id="slide2">
         <div className="card">
           <div className="image">
-            <img src="./src/slide/vicepresident.jpg" alt="" />
+            <img src="src/slide/vicepresident.jpg" alt="" />
           </div>
           <div className="infos">
             <span className="name">VICE PRESIDENT </span>
@@ -43,7 +42,7 @@ function Slider() {
       <label htmlFor="s3" id="slide3">
         <div className="card">
           <div className="image">
-            <img src="./src/slide/mediamanager.PNG" alt="" />
+            <img src="src/slide/mediamanager.PNG" alt="" />
           </div>
           <div className="infos">
             <span className="name">SOCIAL MEDIA MANAGER</span>
@@ -55,7 +54,7 @@ function Slider() {
       <label htmlFor="s4" id="slide4">
         <div className="card">
           <div className="image">
-            <img src="./src/slide/derani.jpg" alt="" />
+            <img src="src/slide/derani.jpg" alt="" />
           </div>
           <div className="infos">
             <span className="name">RECRUITMENT OFFICER</span>
@@ -66,7 +65,7 @@ function Slider() {
       <label htmlFor="s5" id="slide5" >
         <div className="card">
           <div className="image">
-            <img src="./src/image/logo.jpg" alt="" />
+            <img src="src/image/logo.jpg" alt="" />
           </div>
           <div className="infos">
             <span className="name"> HR MANAGER</span>
@@ -77,7 +76,7 @@ function Slider() {
       <label htmlFor="s6" id="slide6">
       <div className="card">
           <div className="image">
-            <img src="./src/image/logo.jpg" alt="" />
+            <img src="src/image/logo.jpg" alt="" />
           </div>
           <div className="infos">
             <span className="name"> MECHANICAL DEV DEP LEADER</span>
@@ -89,7 +88,7 @@ function Slider() {
           <label htmlFor="s7" id="slide7">
           <div className="card">
           <div className="image">
-            <img src="./src/image/logo.jpg" alt="" />
+            <img src="src/image/logo.jpg" alt="" />
           </div>
           <div className="infos">
             <span className="name">IT DEP LEADER</span>
@@ -101,7 +100,7 @@ function Slider() {
           <label htmlFor="s8" id="slide8">
           <div className="card">
           <div className="image">
-            <img src="./src/image/logo.jpg" alt="" />
+            <img src="src/image/logo.jpg" alt="" />
           </div>
           <div className="infos">
             <span className="name">GENERAL SECRETARY</span>
@@ -113,7 +112,7 @@ function Slider() {
           <label htmlFor="s9" id="slide9">
           <div className="card">
           <div className="image">
-            <img src="./src/image/logo.jpg" alt="" />
+            <img src="src/image/logo.jpg" alt="" />
           </div>
           <div className="infos">
             <span className="name">ORGANISATION DEP LEADER</span>
