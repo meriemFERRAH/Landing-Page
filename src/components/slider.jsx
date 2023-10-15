@@ -1,4 +1,3 @@
-import React from 'react';
 import logo from "../image/logo.jpg";
 import pre from "../slide/president.jpg";
 import vice from "../slide/vicepresident.jpg";
