@@ -1,6 +1,5 @@
 import logo  from "../image/logo.jpg" ; 
 import hero  from "../slide/img4.png" ; 
-import bg from "../slide/Web 1920 – 1.png";
 function Home() {
   const slide = document.querySelectorAll(".slide")
   var repeat = function(){
@@ -29,7 +28,7 @@ function Home() {
   }
   repeat();
   return (
-    <div className="HomeCTN" style={{background: URL({bg})}}>
+    <div className="HomeCTN" >
         <div className="Text">
             <p>WELCOME TO SPACE TECH CLUB</p>
             <img className="hide " src={logo} alt="" />
